@@ -1,0 +1,20 @@
+variable;tipo;descripcion
+step;numerical;unidad de tiempo, 1 = 1 hora
+type;categorical;tipo
+amount;numerical;cantidad
+gender;categorical;género (informado por el cliente)
+device;categorical;tipo del dispositivo que inicio la transacción
+connection_time;numerical;segundos que tardan en llegar los datos desde la conexión entrante
+nameOrig;categorical;identificador del cliente que inicia la transacción
+race;categorical;raza
+oldbalanceOrg;numerical;saldo antes de la transacción
+age;numerical;edad estimada
+newbalanceOrig;numerical;saldo después
+nameDest;categorical;receptor de la transacción
+user_connections;numerical;conexiones del mismo usuario ese día
+security_alert;categorical;si existía una alerta de seguridad ese día emitida por las autoridades
+oldbalanceDest;numerical;balance inicial del destinatario
+newbalanceDest;numerical;balance final del destinatario
+zone;categorical;lugar inferida del origen de la transacción
+user_number;numerical;usuarios concurrentes en la web en el momento de hacer la transacción
+isFraud;target;etiqueda de fraude verificada
